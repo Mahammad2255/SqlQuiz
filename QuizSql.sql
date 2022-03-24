@@ -23,10 +23,10 @@ INSERT INTO Groups(Name) values('P221');
 
 SELECT * FROM GROUPS 
 
-INSERT INTO Students(Name,Surname,GroupId) values('Mehemmed','Ismayilov', 1);
-INSERT INTO Students(Name,Surname,GroupId) values('Sadiqxan','Qayxanov', 1);
-INSERT INTO Students(Name,Surname,GroupId) values('Altan','Ibrahimlli', 3);
-INSERT INTO Students(Name,Surname,GroupId) values('Hemid','Memmedov', 1);
+INSERT INTO Students(Name,Surname,GroupId,Grade) values('Mehemmed','Ismayilov', 1,95);
+INSERT INTO Students(Name,Surname,GroupId,Grade) values('Sadiqxan','Qayxanov', 1,75);
+INSERT INTO Students(Name,Surname,GroupId,Grade) values('Altan','Ibrahimlli', 3,65);
+INSERT INTO Students(Name,Surname,GroupId,Grade) values('Hemid','Memmedov', 1,100);
 
 SELECT * FROM Students WHERE GroupId = 1;
 
